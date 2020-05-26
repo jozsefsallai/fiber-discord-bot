@@ -1,0 +1,8 @@
+{
+  "id": "the ID of the discord server",
+  "approvals": {
+    "rulesChannelID": "the ID of the rules channel on the server",
+    "rulesMessageID": "the ID of the rules message new members have to react to",
+    "approvedRoleID": "the ID fo the role users get assigned when they accept the rules"
+  }
+}
