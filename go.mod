@@ -1,3 +1,5 @@
+// +heroku goVersion 1.15
+
 module github.com/jozsefsallai/fiber-discord-bot
 
 go 1.15
