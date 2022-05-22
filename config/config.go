@@ -31,9 +31,10 @@ func loadDotenv() error {
 }
 
 func Load() {
-	err := loadDotenv()
-	if err != nil {
-		log.Fatal("Please provide the configuration file of the bot.")
+	loadDotenv()
+
+	if os.Getenv("BOT_TOKEN") == "" {
+		log.Fatal("BOT_TOKEN is not set")
 	}
 
 	Config = &AppConfig{
